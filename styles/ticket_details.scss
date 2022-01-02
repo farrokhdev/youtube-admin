@@ -1,0 +1,146 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.ticket_sec {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  .ticket_sidebar {
+    padding: 2rem !important ;
+    height: fit-content;
+
+    .ant-card-head {
+      background-color: $black !important;
+      color: $white;
+      border-radius: 4px !important;
+    }
+
+    .ant-divider {
+      margin: 1rem 0 !important;
+    }
+    .tik_cont {
+      display: flex;
+      gap: 5px;
+      color: $black;
+      button {
+        width: 100%;
+      }
+    }
+  }
+  .ticket_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .ticket-reply-form {
+      .reply_item {
+        .item_header {
+          padding: 2rem;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: $white;
+          border-radius: 4px 4px 0px 0px;
+          button {
+            span {
+              font-size: 1.2rem;
+              font-weight: 400;
+            }
+          }
+        }
+        .item_body {
+          width: 100%;
+          padding: 2rem;
+          background-color: $white;
+          color: $black;
+          border: 1px solid $line;
+          min-height: 200px;
+          background-color: $primaryLight;
+        }
+      }
+    }
+
+    .ticket_items,
+    .repticket_items {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      .ticket_item {
+        .item_header {
+          padding: 2rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: $white;
+          border-radius: 4px 4px 0px 0px;
+          span {
+            font-size: 1.2rem;
+            font-weight: 400;
+          }
+        }
+        .item_body {
+          padding: 2rem;
+          background-color: $white;
+          color: $black;
+          border: 1px solid $line;
+          min-height: 200px;
+          background-color: $primaryLight;
+          span {
+            font-size: 1.2rem;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    .repticket_items {
+      .item_header {
+        background-color: $success;
+      }
+    }
+    .ticket_items {
+      .item_header {
+        background-color: $primary;
+      }
+    }
+  }
+}
+
+// attach style
+.ticket_attach {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.goto {
+  display: flex;
+  justify-content: space-between;
+}
+
+// ticket closed
+.close {
+  background-color: $gray !important;
+}
+
+@media (max-width: $laptop) {
+  .ticket_sec {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (max-width: $tablet) {
+  .ticket_sec {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: $mobileL) {
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

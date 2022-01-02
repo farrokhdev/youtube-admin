@@ -1,0 +1,77 @@
+@import 'colors';
+@import 'boxshadow';
+@import 'device';
+@import 'type_and_font';
+
+.details {
+  .details_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+    gap: 2rem;
+    // padding: 2rem;
+
+    .details_content {
+      flex: 1 !important;
+      // padding: 2rem;
+
+      .channel_thumbnail {
+        display: flex !important;
+        gap: 2rem;
+        align-items: center !important;
+        width: 100%;
+        margin-bottom: 4rem;
+
+        .channel_pic {
+          display: flex;
+          border-radius: 50%;
+          // overflow: hidden;
+          border: 2px solid $borderLight !important;
+        }
+        .channel_title {
+          h2 {
+            font-size: 2rem;
+            font-weight: bold;
+          }
+        }
+      }
+
+      .view_details {
+        .details {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+          background-color: $white;
+          padding: 1rem;
+          text-align: center;
+          color: $black;
+          border-radius: 4px;
+          transition: 0.3s ease;
+          cursor: pointer;
+        }
+      }
+
+      .channel_desc {
+        p {
+        }
+      }
+    }
+    .detail_form {
+      flex: 1;
+      h2 {
+        margin-bottom: 4rem;
+      }
+      position: relative;
+      .goback {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+      }
+    }
+  }
+}
+
+.dis_none {
+  display: none !important;
+}

@@ -1,0 +1,71 @@
+// @import 'colors';
+// @import 'boxshadow';
+// @import 'device';
+// @import 'type_and_font';
+
+// .open_modal {
+//   button {
+//     margin-right: auto;
+//   }
+//   .ant-modal {
+//     width: 80% !important;
+//     padding: 0 2rem;
+//     .ant-modal-content {
+//       background-color: $primaryLight;
+//       .ant-modal-body {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 2rem;
+//         .ant-input-group-wrapper {
+//           // max-width: 400px !important;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .calendar_modal {
+//   .ant-modal {
+//     width: 80% !important;
+//     .ant-modal-content {
+//       background-color: $white;
+//       .ant-modal-body {
+//         padding: 0 !important;
+//         display: flex;
+//         flex-direction: column;
+//         gap: 2rem;
+//         .ant-input-group-wrapper {
+//           max-width: 400px !important;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.ant-modal-footer {
+  display: none !important;
+}
+
+.ant-modal {
+  width: 90% !important;
+}
+
+// @media (max-width: $laptop) {
+//   // .ant-modal {
+//   //   width: 90% !important;
+//   // }
+// }
+// @media (max-width: $tablet) {
+//   .ant-modal {
+//     width: 100%;
+//   }
+// }
+// @media (max-width: $mobileL) {
+//   .ant-modal {
+//     width: 100%;
+//   }
+// }
+// @media (max-width: $mobileM) {
+// }
+// @media (max-width: $mobileS) {
+// }

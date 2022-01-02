@@ -1,0 +1,25 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.content_row {
+  display: flex;
+  margin: 0 !important;
+
+  row-gap: 2rem !important;
+}
+.content_img {
+  width: 100%;
+  height: 300px !important;
+  display: block;
+}
+
+// .content_box {
+//   padding: 0px !important;
+// }
+
+.content_card {
+  border-radius: 4px 4px 0px 0px;
+  overflow: hidden;
+}

@@ -1,0 +1,36 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.ticket_form {
+  width: 100%;
+  padding: 2rem;
+  background-color: $white;
+  border-radius: 4px;
+  font-family: iranyekan;
+  label {
+    font-size: 12px;
+  }
+  input {
+    font-size: 12px;
+  }
+  .ant-upload {
+    span {
+      font-size: 12px;
+
+      button {
+        width: 200px;
+      }
+    }
+  }
+  .ant-form-item-explain {
+    div {
+      font-size: 12px;
+    }
+  }
+}
+
+.ant-form-rtl .ant-form-item-label {
+  text-align: right;
+}

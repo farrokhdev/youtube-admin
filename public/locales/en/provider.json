@@ -1,0 +1,196 @@
+{
+  "dashboard": {},
+  "menu_items": {
+    "dashboard": "dashboard",
+    "channels": "channels",
+    "orders": "orders",
+    "tickets": "tickets",
+    "notifications": "notifications"
+  },
+  "login": {
+    "formTitle": "login form",
+    "formTopic": "login form",
+    "email": "email",
+    "email_not_valid": "the email is not valid",
+    "password": "password",
+    "password_requied": "please enter your password",
+    "to_register": "if you have not registered yet?",
+    "sign_up": "sign up",
+    "button": "login",
+    "forget_pass": "forgot password?"
+  },
+  "register": {
+    "formTopic": "register form",
+    "name": "name",
+    "name_required": "please enter your name correctly",
+    "family": "family",
+    "family_required": "please enter your family correctly",
+    "email": "email",
+    "email_required": "the email is not valid",
+    "password": "password",
+    "password_required": "please enter your password",
+    "repeat_password": "repeat password",
+    "repeat_password_required": "repeat password is no correct",
+    "to_login": "if you have registered?",
+    "sign_ip": "sign in",
+    "button": "register"
+  },
+  "new_password": {
+    "formTitle": "new password",
+    "formTopic": "enter your new password",
+    "password": "password",
+    "password_required": "enter your password correctly",
+    "repeat_password": "repeat password",
+    "repeat_password_required": "repeated password is not correct",
+    "button": "change password"
+  },
+  "change_password": {
+    "formTitle": "change password",
+    "formTopic": "enter your new password",
+    "old_password": "current password",
+    "old_password_required": "enter your current password",
+    "password": "password",
+    "password_required": "enter your",
+    "repeat_password": "repeate password",
+    "repeat_password_required": "repeated password is not correct",
+    "button": "change password"
+  },
+  "forgot_password": {
+    "formTitle": "forgot password",
+    "formTopic": "please send your email",
+    "emailResended": "email has been sended",
+    "email": "email",
+    "email_required": "email is not valid",
+    "button": "send"
+  },
+  "register_confirm": {
+    "formTitle": "congratulations",
+    "formTitleError": "sorry!",
+    "formTopic": "Registration completed successfully",
+    "button": "بازگشت به صفحه اصلی",
+    "resign": "register again",
+    "buttonError": "resend email"
+  },
+  "password_confirm": {
+    "formTitle": "congratulations",
+    "formTopic": "change password completed successfully",
+    "button": "return to dashboard"
+  },
+  "confirm": {
+    "formTitle": "activation email sended",
+    "formTitleForgotPass": "Password recovery email sent",
+    "formTopic": "please check your email and click on the link tha sent for you",
+    "button": " return to dashboard"
+  },
+  "form_footer": {
+    "hame_page": "back to home page",
+    "policy": "privacy and policy"
+  },
+  "channels": {
+    "add": "add new channel",
+    "want_to_add": "do you whant to add this channel?",
+    "yes": "yes",
+    "no": "no",
+    "add_search_content": "add channel",
+    "edit_channel": "edit channel",
+    "search_channel": "search channel",
+    "search_content": "search content",
+    "add_contents": "add new content",
+    "add_content": "add content",
+    "edit_contents": "edit content"
+  },
+  "details": {
+    "video_count": "video counts",
+    "view_count": "view counts",
+    "sub_cont": "subscribers",
+    "release_date": "release date",
+    "created_at": "created at",
+    "email_required": "the email you entered is not valid",
+    "return": "return"
+  },
+  "tickets": {
+    "add": "new ticket",
+    "ticket_info": "ticket info",
+    "all_tickets": "all tickets",
+    "what_to_add": "do you whant to add this channel",
+    "yes": "yes",
+    "no": "no",
+    "add_search_content": "add",
+    "edit_channel": "edit channel",
+    "search_channel": "search channel",
+    "add_contents": "add new content",
+    "ticket_num": "ticket number",
+    "close_ticket": "close ticket",
+    "see_attach": "see attach",
+    "download_attch": "download",
+    "fill_ticket_title": "please fill the ticket title",
+    "fill_department": "please fill the department",
+    "fill_description": "please fill the description",
+    "send_file": "send file",
+    "upload": "upload",
+    "send_btn": "send ticket",
+    "reply_title": "reply ticket"
+  },
+  "detail_form": {
+    "add_channel": "add to the list",
+    "edit_channel": "edit channel",
+    "add_content": "add new content",
+    "edit_content": "edit content",
+    "category": "category",
+    "category_place": "choose category",
+    "category_alert": "choose fited category for this channel",
+    "price": "price",
+    "price_alert": "choose your price for this channel",
+    "suggested_price": "suggested price",
+    "suggested_price_alert": "choose your suggested price for this channel",
+    "status": "channel status",
+    "active": "active",
+    "deactive": "deactive",
+    "send": "send",
+    "updateBtn": "update",
+    "backBtn": "return"
+  },
+  "content_form": {
+    "price": "price",
+    "suggested_price": "suggested price",
+    "status": "channel status",
+    "active": "active",
+    "deactive": "deactive",
+    "button": "send",
+    "updateBtn": "update"
+  },
+  "tableList": {
+    "id": "id",
+    "title": "title",
+    "category": "category",
+    "status": "status",
+    "actions": "actions",
+    "description": "description",
+    "read_at": "read_at",
+    "created_at": "created_at",
+    "department": "department",
+    "active": "active",
+    "deactive": "deactive",
+    "see_more": "see more"
+  },
+  "navbar": {
+    "login": "login",
+    "register": "register",
+    "forgot_password": "forgot password",
+    "change_password": "change password",
+    "logout": "log out",
+    "wellcome": "welcome to provider panel"
+  },
+  "sidebar": {
+    "dashboard": "dashboard",
+    "settings": "settings",
+    "edit_provider": "edit provider",
+    "change_password": "change password",
+    "channels": "channels",
+    "orders": "orders",
+    "tickets": "tickets",
+    "notifications": "notifications"
+  },
+  "cancel": "Cancel",
+  "Passwords don’t match": "Passwords don’t match."
+}

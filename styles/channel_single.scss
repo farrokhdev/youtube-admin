@@ -1,0 +1,122 @@
+@import 'colors';
+@import 'boxshadow';
+@import 'device';
+@import 'type_and_font';
+@import 'allContents.scss';
+
+.details_channel {
+  .channel_thumbnail {
+    display: flex !important;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4rem;
+    .channel_pic {
+      display: flex;
+      border-radius: 50%;
+      border: 2px solid $borderLight !important;
+    }
+    .channel_title {
+      margin-left: auto;
+      h2 {
+        font-weight: bold;
+      }
+    }
+  }
+  .category {
+    padding: 2rem;
+
+    color: $black;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 4px;
+    margin-bottom: 4rem;
+    // background-color: $black;
+  }
+
+  .view_details {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      'det'
+      'cal'
+      'desc';
+    grid-template-columns: 1fr;
+
+    .detailbox {
+      display: grid;
+      grid-area: det;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2rem;
+      .details {
+        display: flex;
+        padding: 2rem;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        box-shadow: $box1;
+        color: $primary;
+        border: 1px solid $primary;
+        border-radius: 4px;
+        transition: 0.3s ease;
+        &:hover {
+          color: $white;
+          background-color: $primary;
+        }
+      }
+    }
+
+    .calender {
+      grid-area: cal;
+      width: 100%;
+      padding: 2rem;
+    }
+    .channel_desc {
+      grid-area: desc;
+      margin-bottom: 4rem;
+      padding: 2rem;
+      border-radius: 4px;
+      // color: $white;
+      // border: 1px solid $primary;
+      background-color: $bgLight;
+    }
+  }
+}
+
+.no_data {
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: $borderLight;
+}
+
+.no_graded {
+  display: flex;
+  padding: 2rem;
+  background-color: $alert;
+  color: $black;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+@media (max-width: $laptop) {
+}
+@media (max-width: $tablet) {
+  .channel_thumbnail {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+}
+@media (max-width: $mobileL) {
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

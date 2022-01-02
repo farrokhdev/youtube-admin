@@ -1,0 +1,39 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+// all contents
+
+.all_Contents {
+  width: 100%;
+  .search_items {
+    .content_img {
+    }
+    .content {
+      .title {
+        .title_img {
+        }
+        .title_txt {
+        }
+      }
+
+      .action {
+        .edit,
+        .delete {
+        }
+      }
+    }
+
+    &:hover {
+      .content {
+        .action {
+        }
+      }
+    }
+  }
+
+  .ant-list-pagination {
+    text-align: center;
+  }
+}

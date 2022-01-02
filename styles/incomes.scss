@@ -1,0 +1,158 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.account_balance {
+  padding: 2rem;
+  background-color: $success;
+  color: $white;
+  border-radius: 50px;
+  margin-right: auto;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem !important;
+  @media (max-width: $tablet) {
+    width: 100%;
+  }
+}
+
+.date_picker_box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  background: $white !important;
+  .date-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    @media (max-width: $laptopM) {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+    h4 {
+      font-size: 1.3rem !important;
+      font-weight: 600;
+    }
+
+    .bonqgD {
+      display: flex !important;
+      align-items: center;
+      border-radius: 4px !important;
+      gap: 2rem;
+      label {
+        font-weight: 500;
+      }
+      input {
+        padding: 2rem;
+        height: 45px;
+        border-radius: 50px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.2rem;
+        box-shadow: $box1;
+        background: $borderLight3 !important;
+      }
+      @media (max-width: $laptopM) {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        input {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+// POPUP CALLENDER
+.jkcJde {
+  div {
+    h4 {
+      p {
+        color: $black !important;
+      }
+      svg {
+        color: $black !important;
+      }
+    }
+    h3 {
+      padding: 1rem !important;
+      background-color: $borderLight3 !important;
+      color: $black !important;
+      border-radius: 50px !important;
+    }
+  }
+}
+
+.rdp__buttons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 2rem;
+  padding: 2rem !important;
+  button {
+    height: 45px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    border-radius: 50px !important;
+    transition: 0.3s ease !important;
+  }
+  .rdp__button--submit {
+    border: 1px solid $primary !important;
+    background-color: $white !important;
+    color: $primary !important;
+
+    &:hover {
+      background-color: $primary !important;
+      color: $white !important;
+    }
+  }
+  .rdp__button--cancel {
+    border: 1px solid $alert !important;
+    background-color: $white !important;
+    color: $alert !important;
+    &:hover {
+      background-color: $alert !important;
+      color: $black !important;
+    }
+  }
+}
+
+.bgHcYY li {
+  width: 45px !important;
+  height: 45px !important;
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+}
+.sc-jTzLTM li {
+  width: 45px !important;
+  height: 45px !important;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+}
+
+.jXlNff {
+  background-color: $primary !important;
+  color: $white !important;
+}
+.kwyIOC {
+  background-color: $success !important;
+  color: $white !important;
+}
+
+@media (max-width: $laptop) {
+}
+@media (max-width: $tablet) {
+}
+@media (max-width: $mobileL) {
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

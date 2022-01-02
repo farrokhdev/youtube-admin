@@ -1,0 +1,159 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+// TABLE GLOBAL
+
+.table {
+  @media (max-width: $tablet) {
+    display: none;
+  }
+  @media (max-width: $mobileL) {
+  }
+  @media (max-width: $mobileM) {
+  }
+  @media (max-width: $mobileS) {
+  }
+}
+
+._table_title,
+.table_footer {
+  padding: 1rem;
+  background-color: $success;
+  color: $white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px 4px 0px 0px;
+  @media (max-width: $tablet) {
+    display: flex;
+  }
+  @media (max-width: $mobileL) {
+  }
+  @media (max-width: $mobileM) {
+  }
+  @media (max-width: $mobileS) {
+  }
+}
+
+.table_footer {
+  border-radius: 4px !important;
+}
+.mobile_table {
+  display: none;
+  background-color: $white;
+  box-shadow: $box2;
+  margin-bottom: 2rem;
+  flex-direction: column;
+  gap: 1rem;
+
+  .ant-divider {
+    margin: 1.5rem 0 !important;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+      font-size: 1.3rem !important;
+    }
+    ._title {
+      font-weight: 600;
+    }
+  }
+  @media (max-width: $tablet) {
+    display: flex;
+  }
+  @media (max-width: $mobileL) {
+  }
+  @media (max-width: $mobileM) {
+  }
+  @media (max-width: $mobileS) {
+  }
+}
+
+.ant-table-thead {
+  background-color: $success !important;
+
+  tr {
+    th {
+      background-color: transparent !important;
+      color: $white;
+    }
+  }
+}
+
+.ant-table-cell {
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  // text-align: center !important;
+  padding: 1rem 1rem !important;
+}
+
+.actions {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    span {
+      display: flex;
+    }
+  }
+}
+
+.table-footer {
+  padding: 1rem;
+  width: fit-content;
+}
+
+.delete {
+  &:hover {
+    color: $error;
+    border: 1px solid $error;
+  }
+}
+.edit {
+  &:hover {
+    color: $primary;
+    border: 1px solid $primary;
+  }
+}
+
+.ant-table-content::-webkit-scrollbar {
+  height: 10px;
+  background-color: $primaryLight;
+}
+
+.ant-table-content::-webkit-scrollbar-thumb {
+  background-color: $hoverbg2;
+  border-radius: 50px;
+}
+
+.ant-table-footer {
+  padding: 2rem !important;
+}
+
+// table button
+.details-btn {
+  color: $primary !important;
+  border: 1px solid $primary !important;
+  margin: 0 auto !important;
+  span {
+    font-size: 1.2rem !important;
+  }
+
+  &:hover {
+    background-color: $primary !important;
+    color: $white !important;
+  }
+}
+
+// ROW CLASS NAME
+.row_items {
+  background-color: $gray !important;
+}

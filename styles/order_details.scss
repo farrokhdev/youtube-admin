@@ -1,0 +1,184 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.details {
+  .details_wrapper {
+    .order_details {
+      .top_contents,
+      .name-family {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+      }
+
+      .top_contents {
+        span {
+          font-size: 1.3rem;
+          line-height: 1.3rem !important;
+        }
+        ._prefix {
+          font-weight: 600;
+          font-size: 1.3rem;
+        }
+      }
+
+      .cont-details {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        gap: 1.5rem;
+        .det-item {
+          display: flex;
+          align-items: center;
+
+          gap: 2rem;
+          ._prefix {
+            font-weight: 600;
+            font-size: 1.3rem;
+          }
+        }
+        .det-desc {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          ._prefix {
+            font-weight: 600;
+            font-size: 1.3rem;
+          }
+        }
+      }
+
+      .order_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+        .content_thumb {
+          overflow: hidden;
+          padding: 2rem;
+
+          border-radius: 4px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+          }
+        }
+        .cont_title {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          color: $black;
+          padding: 2rem;
+          border-radius: 4px;
+          .order-title {
+            font-weight: 600;
+          }
+          .det-item {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            ._prefix {
+              font-weight: 600;
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+      .order_steps {
+        padding: 4rem 0;
+        display: flex !important;
+        flex-direction: column;
+        margin-bottom: 4rem;
+        gap: 2rem;
+
+        .btns {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          .report {
+            &:hover {
+              background-color: $error !important;
+              border: 1px solid $error !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // step description
+  .desc {
+    padding: 2rem !important;
+    display: flex !important;
+    flex-direction: column;
+    background-color: $success;
+    color: $white;
+    gap: 2rem;
+    border-radius: 4px;
+    justify-content: space-between !important;
+    .step-btns {
+      display: flex !important;
+      align-items: center;
+      gap: 2rem;
+
+      .stp-btn,
+      .report-btn {
+        background-color: transparent !important;
+        color: $white !important;
+        border: 1px solid $white !important;
+      }
+      .stp-btn {
+        &:hover {
+          border: 1px solid $primary !important;
+          background-color: $primary !important;
+        }
+      }
+      .report-btn {
+        &:hover {
+          border: 1px solid $error !important;
+          background-color: $error !important;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $laptop) {
+    .order_details {
+    }
+  }
+  @media (max-width: $tablet) {
+    .order_details {
+      .top_contents,
+      .name-family,
+      .order-status {
+        flex-direction: column;
+        align-items: flex-start !important;
+        .ant-divider {
+          display: none !important;
+        }
+      }
+      .order_content {
+        grid-template-columns: 1fr !important;
+        .content_thumb {
+          padding: 0 !important;
+        }
+        .cont_title {
+          padding: 0 !important;
+        }
+      }
+    }
+  }
+  @media (max-width: $mobileL) {
+  }
+  @media (max-width: $mobileM) {
+  }
+  @media (max-width: $mobileS) {
+  }
+}

@@ -1,0 +1,67 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.dash_items {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  .dashboard_box {
+    color: $black;
+    padding: 1rem 2rem;
+    box-shadow: $box1;
+
+    background: linear-gradient(180deg, $success 0%, $primary 100%);
+    border-radius: 4px;
+    .chart_icon {
+      color: $primary;
+      font-size: 3rem;
+    }
+    p {
+      // text-align: center;
+      color: $white;
+    }
+    .count {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0 !important;
+      color: $white;
+      .txt {
+        color: $white;
+        font-size: 3rem;
+        font-weight: 600;
+        // line-height: 3rem;
+      }
+      svg {
+        color: $white !important;
+      }
+    }
+  }
+
+  // .ant-card-body {
+  //   padding: 1rem !important;
+  // }
+  // .chart {
+  //   width: 100px;
+  //   height: 100px;
+  //   object-fit: cover;
+  //   object-position: center;
+  // }
+}
+
+.order_list {
+}
+@media (max-width: $laptop) {
+}
+@media (max-width: $tablet) {
+}
+@media (max-width: $mobileL) {
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

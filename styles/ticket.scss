@@ -1,0 +1,12 @@
+@import 'colors';
+@import 'boxshadow';
+@import 'device';
+@import 'type_and_font';
+
+.ticket_textarea {
+  min-height: 200px !important;
+}
+
+.ant-form-item-control {
+  min-width: 2px !important;
+}

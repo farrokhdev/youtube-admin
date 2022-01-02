@@ -1,0 +1,55 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+// collapsed syle
+.ant-menu-inline-collapsed {
+  .ant-menu-item,
+  .ant-menu-item-selected,
+  .ant-menu-item-only-child {
+    display: flex !important;
+    align-items: center !important;
+  }
+  .ant-menu-submenu-vertical {
+    .ant-menu-title-content {
+    }
+    .ant-menu-submenu-title {
+      display: flex !important;
+      align-items: center !important;
+    }
+  }
+}
+
+// content layout
+// footer
+.ant-layout-footer {
+  padding: 1rem 2rem !important;
+  height: 40px;
+  background-color: $black;
+  color: $white;
+  display: flex !important;
+  align-items: center !important ;
+  justify-content: space-between !important;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.layout {
+  min-height: 100vh !important;
+}
+.ant-layout-sider {
+  padding: 2rem 0 !important;
+  height: auto;
+  background-color: $white;
+}
+
+.content_layout {
+  // padding: 2rem 2rem;
+  height: auto;
+  .ant-breadcrumb {
+  }
+  .ant-layout-content {
+    padding: 2rem !important;
+  }
+}

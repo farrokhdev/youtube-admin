@@ -1,0 +1,124 @@
+@import 'colors';
+@import 'boxshadow';
+@import 'device';
+@import 'type_and_font';
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: $primary;
+  display: flex;
+  // position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  gap: 2rem;
+  align-items: center;
+  color: $white !important  ;
+  padding: 0 2rem;
+
+  .drawerbtn {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+  }
+  .toggle {
+    color: $white;
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  .welcome-user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .profile {
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.profile_img {
+  cursor: pointer;
+  img {
+    object-fit: cover;
+    object-position: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+  }
+}
+
+.notification {
+  position: relative;
+  display: flex;
+  align-items: center;
+  svg {
+    font-size: 3rem;
+  }
+  .notif-count {
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: $error;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
+.sidebar_toggler {
+  display: flex;
+}
+
+@media (max-width: $laptop) {
+  .sidebar_toggler {
+    display: none;
+  }
+}
+@media (max-width: $tablet) {
+  .welcome-user {
+    display: none !important;
+  }
+}
+@media (max-width: $mobileL) {
+  .logo {
+    h1 {
+      display: none;
+    }
+  }
+
+  .switch {
+    display: none;
+  }
+
+  .drawerbtn {
+    margin-left: auto !important;
+    background-color: transparent !important;
+    color: $white !important;
+    display: flex !important;
+  }
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

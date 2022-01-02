@@ -1,0 +1,67 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.checkout {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 2rem;
+  .success_res {
+    span {
+      color: $success;
+    }
+  }
+  .ant-btn {
+    height: 45px !important;
+  }
+  .account_wallet {
+    padding: 2rem;
+    background-color: $primary;
+    color: $white;
+    border-radius: 50px;
+    margin-right: auto;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.2rem !important;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0 !important;
+    @media (max-width: $tablet) {
+      margin-bottom: 1rem !important;
+    }
+  }
+}
+
+.checkout_input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .ant-input-number {
+    height: 45px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+  }
+}
+
+@media (max-width: $laptop) {
+  .checkout {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
+@media (max-width: $tablet) {
+}
+@media (max-width: $mobileL) {
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

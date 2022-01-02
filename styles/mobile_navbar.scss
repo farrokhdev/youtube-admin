@@ -1,0 +1,56 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.mobile-nav {
+  display: none;
+  width: 100%;
+  z-index: 80;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  overflow: hidden;
+  padding: 2rem;
+  background-color: $white;
+  transition: 0.3s ease;
+  pointer-events: none;
+  opacity: 0;
+  .card-wrapp {
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    .ant-menu {
+      border: none;
+    }
+    .close-Btn {
+      position: absolute;
+      top: 0;
+      left: 0;
+      cursor: pointer;
+      span {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: $laptop) {
+}
+@media (max-width: $tablet) {
+}
+@media (max-width: $mobileL) {
+  .mobile-nav {
+    display: block;
+  }
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

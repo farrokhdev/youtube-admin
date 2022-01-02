@@ -1,0 +1,76 @@
+@import '@fullcalendar/common/main.css';
+@import '@fullcalendar/daygrid/main.css';
+@import '@fullcalendar/timegrid/main.css';
+
+@import 'colors';
+@import 'boxshadow';
+@import 'device';
+@import 'type_and_font';
+
+.calendar_sec {
+  background-color: $white;
+  padding: 2rem;
+  border: 1px solid $border1;
+  .fc {
+    font-family: iranyekan;
+  }
+}
+
+// calendar modal details
+.calender_details_modal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  grid-template-areas:
+    'evti evti'
+    'thmb info'
+    'more more';
+
+  .thumb,
+  .event_title,
+  .info {
+    border: 1px $border1;
+    padding: 2rem;
+    background-color: $white;
+    border-radius: 4px !important;
+  }
+
+  .event_title {
+    grid-area: evti;
+  }
+
+  .thumb {
+    grid-area: thmb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+  }
+
+  .info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.2;
+      .title {
+        font-weight: 600;
+      }
+    }
+  }
+  .show_more {
+    grid-area: more;
+  }
+}

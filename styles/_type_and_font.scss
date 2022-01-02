@@ -1,0 +1,18 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+
+@font-face {
+  font-family: "yekan";
+  src: url("/fonts/yekan-font/yekan-regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("/fonts/yekan-font/yekan-Medium.ttf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}

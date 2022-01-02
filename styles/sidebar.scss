@@ -1,0 +1,26 @@
+@import "colors";
+@import "boxshadow";
+@import "device";
+@import "type_and_font";
+
+.sidebar {
+  // position: fixed;
+  // margin-top: 90px;
+  // width: 200px;
+  // z-index: 80;
+  // height: calc(100vh - 90px);
+}
+
+@media (max-width: $laptop) {
+}
+@media (max-width: $tablet) {
+}
+@media (max-width: $mobileL) {
+  .sidebar {
+    display: none;
+  }
+}
+@media (max-width: $mobileM) {
+}
+@media (max-width: $mobileS) {
+}

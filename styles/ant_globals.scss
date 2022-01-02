@@ -1,0 +1,246 @@
+@import 'colors';
+@import 'boxshadow';
+@import 'device';
+@import 'type_and_font';
+
+// main sections
+.main_sec {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: $white;
+}
+
+.title-box {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between !important;
+  gap: 2rem;
+}
+.search_box {
+  width: 100%;
+  .search_bar {
+    width: 50% !important;
+  }
+}
+
+.m_right {
+  margin-right: auto !important;
+}
+
+.dvider {
+  margin: 0 !important;
+}
+// pagination
+.ant-list-rtl .ant-list-pagination {
+  text-align: right;
+}
+
+// steps style
+@media (max-width: $laptop) {
+  .ant-steps {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 2rem;
+  }
+}
+
+.anticon {
+  svg {
+    display: block !important;
+  }
+}
+.ant-steps-item-icon {
+  margin: 0px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+@media (max-width: $tablet) {
+  .ant-steps-item {
+    padding: 0px !important;
+    width: 100% !important;
+  }
+}
+
+.ant-steps-item-finish {
+  .ant-steps-item-icon {
+    border-color: $success !important;
+    background-color: $success !important;
+    .ant-steps-icon {
+      color: $white !important;
+    }
+  }
+}
+
+.ant-steps-item-description {
+  max-width: 100% !important;
+}
+.ant-steps-item-content {
+  width: 100% !important;
+  display: block !important;
+}
+
+// FOR AUTH FORMS
+
+.ant-form-item {
+  margin-bottom: 2rem !important;
+
+  input {
+    font-size: 14px;
+    font-weight: 600;
+
+    height: 45px !important;
+    border-radius: 5px !important;
+  }
+}
+.ant-input-password {
+  padding: 0px 1rem !important;
+  border-radius: 5px !important;
+}
+
+.ant-form-item-label {
+  padding: 0.5rem 0px !important;
+  label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.ant-form-item-explain {
+  font-size: 1.4rem !important;
+  color: $error !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.ant-btn {
+  border-radius: 0.4rem !important;
+  padding: 0.5rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-width: 60px;
+}
+
+.global_btn {
+  min-width: 100px !important;
+}
+
+// POPOVER
+.ant-popover-buttons {
+  display: flex !important;
+}
+
+.ant-popover-disabled-compatible-wrapper {
+  border: none !important;
+  &:hover {
+    background-color: transparent !important;
+    border: none !important;
+  }
+}
+
+// CARD
+
+.ant-card-body {
+  padding: 2rem !important;
+}
+
+.ant-card-actions {
+  padding: 0rem 2rem !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center;
+  li {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+// TABLE
+
+.ant-table {
+  padding: 0px !important;
+}
+.ant-table-content {
+  overflow: hidden !important;
+  border-radius: 4px 4px 0px 0px !important ;
+}
+
+// DIVIDER
+.ant-divider-vertical {
+  border-left: 1px solid $gray;
+}
+
+// TAGS
+.ant-tag.ant-tag-rtl {
+  min-width: 100px !important;
+  text-align: center !important;
+}
+
+.ant-tag {
+  margin: 0 !important;
+}
+// INPUTS
+.search_bar {
+  .ant-input-group {
+    .ant-input {
+      height: 45px !important;
+    }
+  }
+  .ant-input-search-button {
+    height: 45px !important;
+  }
+}
+
+// COLLAPSED
+.ant-collapse {
+  .ant-collapse-header {
+    background-color: $primary !important;
+    color: $white !important;
+    padding: 2rem !important  ;
+    border-radius: 4px 4px 0px 0px !important;
+    display: flex !important;
+    gap: 2rem !important;
+    align-items: center !important;
+  }
+}
+
+// LIST (NO DATA)
+.ant-list-empty-text {
+  padding: 2rem;
+  color: $black !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  min-height: 150px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: $bgLight !important;
+}
+
+// LIST AND LIST ITEM
+.ant-list-items {
+  .ant-list-item {
+  }
+  @media (max-width: $laptop) {
+  }
+  @media (max-width: $tablet) {
+    .ant-list-item {
+      flex-direction: column !important;
+      justify-content: flex-start !important;
+      align-items: flex-start !important;
+      gap: 2rem !important;
+    }
+  }
+  @media (max-width: $mobileL) {
+  }
+  @media (max-width: $mobileM) {
+  }
+  @media (max-width: $mobileS) {
+  }
+}

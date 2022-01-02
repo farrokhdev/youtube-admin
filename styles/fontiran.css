@@ -1,0 +1,203 @@
+﻿/**
+*
+*	Name:			IRANYekan Font
+*	Version:			3.3
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		Sep 17, 2020
+*	Updated on:		Sep 17, 2020
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت ایران یکان یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANYekan fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+--------------------------------------------------------------------------------------
+*	
+**/
+
+/* @font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/eot/iranyekanwebbold.eot');
+  src: url('../fonts/eot/iranyekanwebbold.eot?#iefix')
+      format('embedded-opentype'),
+     url('../fonts/woff/iranyekanwebbold.woff') format('woff'),
+    
+      url('../fonts/woff2/iranyekanwebbold.woff2') format('woff2'),
+     url('../fonts/ttf/iranyekanwebbold.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/eot/iranyekanwebthin.eot');
+  src: url('../fonts/eot/iranyekanwebthin.eot?#iefix')
+      format('embedded-opentype'),
+     url('../fonts/woff/iranyekanwebthin.woff') format('woff'),
+   
+      url('../fonts/woff2/iranyekanwebthin.woff2') format('woff2'),
+     url('../fonts/ttf/iranyekanwebthin.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/eot/iranyekanweblight.eot');
+  src: url('../fonts/eot/iranyekanweblight.eot?#iefix')
+      format('embedded-opentype'),
+     url('../fonts/woff/iranyekanweblight.woff') format('woff'),
+   
+      url('../fonts/woff2/iranyekanweblight.woff2') format('woff2'),
+     url('../fonts/ttf/iranyekanweblight.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/eot/iranyekanwebregular.eot');
+  src: url('../fonts/eot/iranyekanwebregular.eot?#iefix')
+      format('embedded-opentype'),
+   url('../fonts/woff/iranyekanwebregular.woff') format('woff'),
+    
+      url('../fonts/woff2/iranyekanwebregular.woff2') format('woff2'),
+     url('../fonts/ttf/iranyekanwebregular.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/eot/iranyekanwebmedium.eot');
+  src: url('../fonts/eot/iranyekanwebmedium.eot?#iefix')
+      format('embedded-opentype'),
+     url('../fonts/woff/iranyekanwebmedium.woff') format('woff'),
+    
+      url('../fonts/woff2/iranyekanwebmedium.woff2') format('woff2'),
+    url('../fonts/ttf/iranyekanwebmedium.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/eot/iranyekanwebextrabold.eot');
+  src: url('../fonts/eot/iranyekanwebextrabold.eot?#iefix')
+      format('embedded-opentype'),
+     url('../fonts/woff/iranyekanwebextrabold.woff') format('woff'),
+    
+      url('../fonts/woff2/iranyekanwebextrabold.woff2') format('woff2'),
+     url('../fonts/ttf/iranyekanwebextrabold.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 850;
+  src: url('../fonts/eot/iranyekanwebblack.eot');
+  src: url('../fonts/eot/iranyekanwebblack.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/woff/iranyekanwebblack.woff') format('woff'),
+  
+      url('../fonts/woff2/iranyekanwebblack.woff2') format('woff2'),
+   url('../fonts/ttf/iranyekanwebblack.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/eot/iranyekanwebextrablack.eot');
+  src: url('../fonts/eot/iranyekanwebextrablack.eot?#iefix')
+      format('embedded-opentype'),
+     url('../fonts/woff/iranyekanwebextrablack.woff') format('woff'),
+ 
+      url('../fonts/woff2/iranyekanwebextrablack.woff2') format('woff2'),
+    
+      url('../fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: iranyekan;
+  font-weight: 200;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebThin.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebThin.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebThin.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebThin.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/iranyekanwebthin.svg');
+}
+@font-face {
+  font-family: iranyekan;
+  font-weight: 300;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebLight.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebLight.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebLight.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebLight.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/iranyekanweblight.svg');
+}
+@font-face {
+  font-family: iranyekan;
+  font-weight: 400;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebRegular.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebRegular.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebRegular.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebRegular.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/IRANYekanWebRegular.svg');
+}
+@font-face {
+  font-family: iranyekan;
+  font-weight: 500;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebMedium.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebMedium.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebMedium.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebMedium.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/iranyekanwebmedium.svg');
+}
+@font-face {
+  font-family: iranyekan;
+  font-weight: 600;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebBold.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebBold.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebBold.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebBold.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/iranyekanwebbold.svg');
+}
+@font-face {
+  font-family: iranyekan;
+  font-weight: 700;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebExtraBold.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebExtraBold.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebExtraBold.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebExtraBold.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/iranyekanwebextrabold.svg');
+}
+@font-face {
+  font-family: iranyekan;
+  font-weight: 800;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebBlack.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebBlack.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebBlack.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebBlack.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/iranyekanwebblack.svg');
+}
+@font-face {
+  font-family: iranyekan;
+  font-weight: 900;
+  src: url('../public/fonts/iranyekan/WebFonts/woff/IRANYekanWebExtraBlack.woff'),
+    url('../public/fonts/iranyekan/WebFonts/woff2/IRANYekanWebExtraBlack.woff2'),
+    url('../public/fonts/iranyekan/WebFonts/ttf/IRANYekanWebExtraBlack.ttf'),
+    url('../public/fonts/iranyekan/WebFonts/eot/IRANYekanWebExtraBlack.eot'),
+    url('../public/fonts/iranyekan/WebFonts/svg/iranyekanwebextrablack.svg');
+}
